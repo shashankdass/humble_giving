@@ -1,6 +1,7 @@
 class GiversController < ApplicationController
   include Wisper::Publisher
   before_action :set_giver, only: [:show, :edit, :update, :destroy]
+  protect_from_forgery with: :null_session
 
   # GET /givers
   # GET /givers.json
@@ -73,6 +74,6 @@ class GiversController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def giver_params
-      params.require(:giver).permit(:cross_street1, :cross_street2, :latitude, :longitude, :country, :zipcode)
+      params.require(:giver).permit(:cross_street1, :cross_street2, :latitude, :longitude, :country, :zipcode, :description, :status)
     end
 end

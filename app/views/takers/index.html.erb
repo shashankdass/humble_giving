@@ -11,6 +11,8 @@
       <th>Longitude</th>
       <th>Country</th>
       <th>Zipcode</th>
+      <th>Phone Number</th>
+      <th>Takers Name</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -24,6 +26,8 @@
         <td><%= taker.longitude %></td>
         <td><%= taker.country %></td>
         <td><%= taker.zipcode %></td>
+        <td><%= taker.phone_number %></td>
+        <td><%= taker.takers_name %></td>
         <td><%= link_to 'Show', taker %></td>
         <td><%= link_to 'Edit', edit_taker_path(taker) %></td>
         <td><%= link_to 'Destroy', taker, method: :delete, data: { confirm: 'Are you sure?' } %></td>

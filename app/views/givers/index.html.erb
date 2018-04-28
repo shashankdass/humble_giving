@@ -11,6 +11,8 @@
       <th>Longitude</th>
       <th>Country</th>
       <th>Zipcode</th>
+      <th>Description</th>
+      <th>Status</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -24,6 +26,8 @@
         <td><%= giver.longitude %></td>
         <td><%= giver.country %></td>
         <td><%= giver.zipcode %></td>
+        <td><%= giver.description %></td>
+        <td><%= giver.status %></td>
         <td><%= link_to 'Show', giver %></td>
         <td><%= link_to 'Edit', edit_giver_path(giver) %></td>
         <td><%= link_to 'Destroy', giver, method: :delete, data: { confirm: 'Are you sure?' } %></td>

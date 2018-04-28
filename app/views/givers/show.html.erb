@@ -30,5 +30,10 @@
   <%= @giver.zipcode %>
 </p>
 
+<p>
+  <strong>Status:</strong>
+  <%= @giver.status %>
+</p>
+
 <%= link_to 'Edit', edit_giver_path(@giver) %> |
 <%= link_to 'Back', givers_path %>

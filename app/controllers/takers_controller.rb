@@ -1,5 +1,6 @@
 class TakersController < ApplicationController
   before_action :set_taker, only: [:show, :edit, :update, :destroy]
+  protect_from_forgery with: :null_session
 
   # GET /takers
   # GET /takers.json
@@ -61,6 +62,22 @@ class TakersController < ApplicationController
     end
   end
 
+  def sms
+    logger.warn "It works!"
+    message_body =  request.parameters["Body"]
+    takers_name,cross_street1,cross_street2 =  message_body.split(",")
+    message_from_zip = request.parameters["FromZip"]
+    message_from_city = request.parameters["FromCity"]
+    message_from = request.parameters["From"]
+    taker = Taker.new()
+    taker.takers_name = takers_name
+    taker.cross_street1 = cross_street1
+    taker.cross_street2 = cross_street2
+    taker.zipcode = message_from_zip
+    taker.phone_number = message_from
+    taker.save!
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_taker
@@ -69,6 +86,6 @@ class TakersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def taker_params
-      params.require(:taker).permit(:cross_street1, :cross_street2, :latitude, :longitude, :country, :zipcode)
+      params.require(:taker).permit(:cross_street1, :cross_street2, :latitude, :longitude, :country, :zipcode, :phone_number, :takers_name)
     end
 end

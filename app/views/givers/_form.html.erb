@@ -41,6 +41,15 @@
     <%= form.text_field :zipcode, id: :giver_zipcode %>
   </div>
 
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description, id: :giver_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :status %>
+    <%= form.text_field :status, id: :giver_status %>
+  </div>
   <div class="actions">
     <%= form.submit %>
   </div>
