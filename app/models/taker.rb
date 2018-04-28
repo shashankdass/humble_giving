@@ -1,0 +1,2 @@
+class Taker < ApplicationRecord
+end

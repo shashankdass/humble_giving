@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cross street1:</strong>
+  <%= @taker.cross_street1 %>
+</p>
+
+<p>
+  <strong>Cross street2:</strong>
+  <%= @taker.cross_street2 %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @taker.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @taker.longitude %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @taker.country %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @taker.zipcode %>
+</p>
+
+<%= link_to 'Edit', edit_taker_path(@taker) %> |
+<%= link_to 'Back', takers_path %>

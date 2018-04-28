@@ -1,0 +1,47 @@
+<%= form_with(model: taker, local: true) do |form| %>
+  <% if taker.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(taker.errors.count, "error") %> prohibited this taker from being saved:</h2>
+
+      <ul>
+      <% taker.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :cross_street1 %>
+    <%= form.text_field :cross_street1, id: :taker_cross_street1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cross_street2 %>
+    <%= form.text_field :cross_street2, id: :taker_cross_street2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :latitude %>
+    <%= form.text_field :latitude, id: :taker_latitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :longitude %>
+    <%= form.text_field :longitude, id: :taker_longitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :country %>
+    <%= form.text_field :country, id: :taker_country %>
+  </div>
+
+  <div class="field">
+    <%= form.label :zipcode %>
+    <%= form.text_field :zipcode, id: :taker_zipcode %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cross_street1: MyString
+  cross_street2: MyString
+  latitude: 9.99
+  longitude: 9.99
+  country: MyString
+  zipcode: MyString
+
+two:
+  cross_street1: MyString
+  cross_street2: MyString
+  latitude: 9.99
+  longitude: 9.99
+  country: MyString
+  zipcode: MyString

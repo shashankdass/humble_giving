@@ -1,0 +1,47 @@
+<%= form_with(model: giver, local: true) do |form| %>
+  <% if giver.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(giver.errors.count, "error") %> prohibited this giver from being saved:</h2>
+
+      <ul>
+      <% giver.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :cross_street1 %>
+    <%= form.text_field :cross_street1, id: :giver_cross_street1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cross_street2 %>
+    <%= form.text_field :cross_street2, id: :giver_cross_street2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :latitude %>
+    <%= form.text_field :latitude, id: :giver_latitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :longitude %>
+    <%= form.text_field :longitude, id: :giver_longitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :country %>
+    <%= form.text_field :country, id: :giver_country %>
+  </div>
+
+  <div class="field">
+    <%= form.label :zipcode %>
+    <%= form.text_field :zipcode, id: :giver_zipcode %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
