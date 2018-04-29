@@ -1,13 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Cross street1:</strong>
-  <%= @giver.cross_street1 %>
-</p>
-
-<p>
-  <strong>Cross street2:</strong>
-  <%= @giver.cross_street2 %>
+  <strong>Address:</strong>
+  <%= @giver.address %>
 </p>
 
 <p>
@@ -33,6 +28,11 @@
 <p>
   <strong>Status:</strong>
   <%= @giver.status %>
+</p>
+
+<p>
+  <strong>Wallet Address:</strong>
+  <%= @giver.wallet_address %>
 </p>
 
 <%= link_to 'Edit', edit_giver_path(@giver) %> |

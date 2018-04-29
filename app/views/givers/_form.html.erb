@@ -12,13 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :cross_street1 %>
-    <%= form.text_field :cross_street1, id: :giver_cross_street1 %>
-  </div>
-
-  <div class="field">
-    <%= form.label :cross_street2 %>
-    <%= form.text_field :cross_street2, id: :giver_cross_street2 %>
+    <%= form.label :address %>
+    <%= form.text_field :address, id: :giver_cross_street1 %>
   </div>
 
   <div class="field">
@@ -49,6 +44,11 @@
   <div class="field">
     <%= form.label :status %>
     <%= form.text_field :status, id: :giver_status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :wallet_address %>
+    <%= form.text_field :wallet_address, id: :wallet_address %>
   </div>
   <div class="actions">
     <%= form.submit %>

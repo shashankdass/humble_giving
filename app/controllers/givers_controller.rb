@@ -1,3 +1,6 @@
+require "lambda_service"
+require 'json'
+
 class GiversController < ApplicationController
   include Wisper::Publisher
   before_action :set_giver, only: [:show, :edit, :update, :destroy]
@@ -27,7 +30,6 @@ class GiversController < ApplicationController
   # POST /givers.json
   def create
     @giver = Giver.new(giver_params)
-
 
     respond_to do |format|
       if @giver.save
@@ -66,6 +68,14 @@ class GiversController < ApplicationController
     end
   end
 
+  def get_current_lumnes
+    ls = LambdaService.new
+    lumnes = ls.get_current_lumnes
+    respond_to do |format|
+      format.json { render json: { "balance": JSON.parse(lumnes.payload.string)["balance"] }, status: :ok }
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_giver
@@ -74,6 +84,6 @@ class GiversController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def giver_params
-      params.require(:giver).permit(:cross_street1, :cross_street2, :latitude, :longitude, :country, :zipcode, :description, :status)
+      params.require(:giver).permit(:address, :latitude, :longitude, :country, :zipcode, :description, :status, :wallet_address)
     end
 end

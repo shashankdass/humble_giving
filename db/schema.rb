@@ -10,11 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180428233228) do
+ActiveRecord::Schema.define(version: 20180429065702) do
 
   create_table "givers", force: :cascade do |t|
-    t.string "cross_street1"
-    t.string "cross_street2"
     t.decimal "latitude", precision: 10, scale: 6
     t.decimal "longitude", precision: 10, scale: 6
     t.string "country"
@@ -23,6 +21,8 @@ ActiveRecord::Schema.define(version: 20180428233228) do
     t.datetime "updated_at", null: false
     t.string "description"
     t.string "status"
+    t.string "address"
+    t.string "wallet_address"
   end
 
   create_table "takers", force: :cascade do |t|

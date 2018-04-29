@@ -1,2 +1,2 @@
-json.extract! giver, :id, :cross_street1, :cross_street2, :latitude, :longitude, :country, :zipcode, :created_at, :updated_at, :description, :status
+json.extract! giver, :id, :address, :latitude, :longitude, :country, :zipcode, :created_at, :updated_at, :description, :status, :wallet_address
 json.url giver_url(giver, format: :json)

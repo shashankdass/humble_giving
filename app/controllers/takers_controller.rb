@@ -63,7 +63,6 @@ class TakersController < ApplicationController
   end
 
   def sms
-    logger.warn "It works!"
     message_body =  request.parameters["Body"]
     takers_name,cross_street1,cross_street2 =  message_body.split(",")
     message_from_zip = request.parameters["FromZip"]
