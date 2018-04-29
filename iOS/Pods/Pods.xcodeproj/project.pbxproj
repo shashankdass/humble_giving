@@ -1,0 +1,995 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FF9C0B90B9A0916C85FD1D1F15D6A3 /* DialogBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7ECC19E4C520555221C12931ED86F /* DialogBox-dummy.m */; };
+		31F894222461A12CD0815454EE47A5C7 /* SpinAlone.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A94D3F9ABD7EE6C010862FBCF6E5E2 /* SpinAlone.png */; };
+		404AFA5EC8DB7739504908F28873D8D5 /* RSLoadingTwins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD87EB59FB26EC681D3F1D133DDFBF8 /* RSLoadingTwins.swift */; };
+		411A2E57EA1E3FF2FE819A6AD4C2E1E5 /* Pods-GooglePlacesClone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32E2F7E2FF2865E9C6041C3C27F8D0 /* Pods-GooglePlacesClone-dummy.m */; };
+		446CFB3F62FF05F6A75A622DB9AF9181 /* RSLoadingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AC6C2A5BCA1FACE49BDF820FA0E3E9 /* RSLoadingContainerView.swift */; };
+		5E14E89CED6DE6DD9D7F8CC625F1CEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		693F5CDC4721809BB8D171F3B40A4880 /* SpinAlone.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 850F31CCAE6BAA8EE1F7BA58C49E9D19 /* SpinAlone.scnp */; };
+		76C9A901B406955DB624BDC8999AA033 /* RSLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 213BF4C29DE89864435F565DE3DAAE16 /* RSLoadingView-dummy.m */; };
+		9AA3D4228459359CE382BA9D864C53D8 /* DialogBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BD55B8CF06D19E70DE471098DA934 /* DialogBox.swift */; };
+		9B1F89059CA3761C3B2F8B28B2AF77A5 /* RSLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC6B3CE0682BA1A9AF8AA05834F2A01 /* RSLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A28F1EC7DB4C19CB0CB30AED62545B23 /* RSLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59215F1CEA9FDC57FFEBE57CA2C14953 /* RSLoadingView.swift */; };
+		A600C292B8B6E4E62001BD7AFE54E803 /* Twins.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 1678AA7234140CA039EE1CC4868C8912 /* Twins.scnp */; };
+		B55998146A4E63E28D28BEE474C19DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C484B33BF754F3259049EE96B3104104 /* RSLoadingView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F07E3691810A20761463667CF68B56C1 /* RSLoadingView.bundle */; };
+		C7BDF42CCDDF8C90E2FD01305A6DEF92 /* RSLoadingSpinAlone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F486C53F61C20266D7DDA69D3C2611A5 /* RSLoadingSpinAlone.swift */; };
+		CF0D4D87C869E7B5BC1E82EFE407A932 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9119BD248E2AD21AE8DF1BA0A039A4 /* Utils.swift */; };
+		D1EC88EDC0C214539FE94775CCC6F409 /* DialogBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 706C258E67450CE6CB0DC71A07087F6D /* DialogBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0321C7CCEEC12471FF541D6F4F8BBC7 /* Pods-GooglePlacesClone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B3582D8E7F2DE5F200FD1D6B68952D /* Pods-GooglePlacesClone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3860C65A60F98885C99F2DD298EF008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F214A5471F75F0A635ECE4015DEFC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A67193485423183E4B4C20A0924B42;
+			remoteInfo = "RSLoadingView-RSLoadingView";
+		};
+		8BAE4AC2ED15339C1CCF8D125D1ECFE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E2EAEB77FA926D275BD145D0E0D74A3;
+			remoteInfo = RSLoadingView;
+		};
+		EBB835E0FC53D82D5E9C8BBCFB6EAE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE36B0C16E9D0DCDF7CFDD88F029881;
+			remoteInfo = DialogBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BAC7774BA73CF28D853B069E287452 /* DialogBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DialogBox.xcconfig; sourceTree = "<group>"; };
+		00EEA78957DA64F4E3218BAE31B6D0ED /* Pods-GooglePlacesClone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GooglePlacesClone-frameworks.sh"; sourceTree = "<group>"; };
+		06B20D68E6FCD59C1700248668C82F4F /* DialogBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DialogBox.framework; path = DialogBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0FFBE7D52BEEE28771BE686E6D3FB5 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		0AF53E3BF21DD305B452E50D8A313B3C /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		1678AA7234140CA039EE1CC4868C8912 /* Twins.scnp */ = {isa = PBXFileReference; includeInIndex = 1; name = Twins.scnp; path = RSLoadingView/Assets/Twins.scnp; sourceTree = "<group>"; };
+		184AC7DD443D6E2EE6A5D23D9067428C /* RSLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSLoadingView.modulemap; sourceTree = "<group>"; };
+		213BF4C29DE89864435F565DE3DAAE16 /* RSLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSLoadingView-dummy.m"; sourceTree = "<group>"; };
+		30AC6C2A5BCA1FACE49BDF820FA0E3E9 /* RSLoadingContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingContainerView.swift; path = RSLoadingView/Classes/RSLoadingContainerView.swift; sourceTree = "<group>"; };
+		3A38E2833CC441F52C0E639F84E6C6F4 /* Pods-GooglePlacesClone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GooglePlacesClone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D32E2F7E2FF2865E9C6041C3C27F8D0 /* Pods-GooglePlacesClone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GooglePlacesClone-dummy.m"; sourceTree = "<group>"; };
+		3F07427CCAAD2E7A8B5FA3E8702272E6 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		409465CB1899AE46587893C121379646 /* RSLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSLoadingView.xcconfig; sourceTree = "<group>"; };
+		43C18F4BD724E8499907830B29E60DB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B3582D8E7F2DE5F200FD1D6B68952D /* Pods-GooglePlacesClone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GooglePlacesClone-umbrella.h"; sourceTree = "<group>"; };
+		4C8BD55B8CF06D19E70DE471098DA934 /* DialogBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogBox.swift; path = DialogBox/Classes/DialogBox.swift; sourceTree = "<group>"; };
+		4EA7ECC19E4C520555221C12931ED86F /* DialogBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DialogBox-dummy.m"; sourceTree = "<group>"; };
+		57A7DA38F9DC4FC9FC1D581FC95F9AF0 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		59215F1CEA9FDC57FFEBE57CA2C14953 /* RSLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingView.swift; path = RSLoadingView/Classes/RSLoadingView.swift; sourceTree = "<group>"; };
+		5CD87EB59FB26EC681D3F1D133DDFBF8 /* RSLoadingTwins.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingTwins.swift; path = RSLoadingView/Classes/RSLoadingTwins.swift; sourceTree = "<group>"; };
+		62B60C71A0AEDCF5AB02380785DCE5E0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		689D991E1F74CAA8D9CFE4B4507DE96D /* Pods-GooglePlacesClone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GooglePlacesClone.modulemap"; sourceTree = "<group>"; };
+		706C258E67450CE6CB0DC71A07087F6D /* DialogBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DialogBox-umbrella.h"; sourceTree = "<group>"; };
+		7B80450E4913A55F02A0F857949BCC5F /* RSLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSLoadingView-prefix.pch"; sourceTree = "<group>"; };
+		7B9119BD248E2AD21AE8DF1BA0A039A4 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RSLoadingView/Classes/Utils.swift; sourceTree = "<group>"; };
+		850F31CCAE6BAA8EE1F7BA58C49E9D19 /* SpinAlone.scnp */ = {isa = PBXFileReference; includeInIndex = 1; name = SpinAlone.scnp; path = RSLoadingView/Assets/SpinAlone.scnp; sourceTree = "<group>"; };
+		8DC6B3CE0682BA1A9AF8AA05834F2A01 /* RSLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSLoadingView-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D3635CF75599B8A0092684516DF65F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A657FF468B3678EE70FF6C343E544563 /* DialogBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DialogBox.modulemap; sourceTree = "<group>"; };
+		AAFBCE25E722823E6E5149868538AC7C /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		AE4E5F46BC2E82434C88FDAAB38341F2 /* Pods-GooglePlacesClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GooglePlacesClone.debug.xcconfig"; sourceTree = "<group>"; };
+		AE61FDE018443824C193F07FCA1FBC3B /* DialogBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DialogBox-prefix.pch"; sourceTree = "<group>"; };
+		B882488309D82F1119B486AE1E090880 /* RSLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSLoadingView.framework; path = RSLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB35E554D3D4FF8FCCE20AEC0F4044A /* Pods-GooglePlacesClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GooglePlacesClone.release.xcconfig"; sourceTree = "<group>"; };
+		C8729E9B1C4DA9207421C3F04FDA6378 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		D18A7A3DEFF98DFA75673BA04A8484E8 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		D63E909726D4F0B02DF39B28B397DEF1 /* ResourceBundle-RSLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RSLoadingView-Info.plist"; sourceTree = "<group>"; };
+		DDC410CEDA0DB4FC16EABB016BB3DBB0 /* Pods-GooglePlacesClone-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GooglePlacesClone-resources.sh"; sourceTree = "<group>"; };
+		E7B5309625353EEA65756CA7B17FC118 /* Pods_GooglePlacesClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GooglePlacesClone.framework; path = "Pods-GooglePlacesClone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E75527BF1ED125F9533E7819B733DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07E3691810A20761463667CF68B56C1 /* RSLoadingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RSLoadingView.bundle; path = "RSLoadingView-RSLoadingView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AD76318C9F71E5ACA97F3576AD073D /* Pods-GooglePlacesClone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GooglePlacesClone-acknowledgements.plist"; sourceTree = "<group>"; };
+		F486C53F61C20266D7DDA69D3C2611A5 /* RSLoadingSpinAlone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSLoadingSpinAlone.swift; path = RSLoadingView/Classes/RSLoadingSpinAlone.swift; sourceTree = "<group>"; };
+		F5A94D3F9ABD7EE6C010862FBCF6E5E2 /* SpinAlone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SpinAlone.png; path = RSLoadingView/Assets/SpinAlone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EEE81597BE67161B1DD7EF4CE1F2D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55998146A4E63E28D28BEE474C19DBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72725DF171FD38DB86CA0D13692AA750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAFBBFABFDFB6DB01DA65361C5B4026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3860C65A60F98885C99F2DD298EF008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D352E1746AEB82114B80C90443EDFF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E14E89CED6DE6DD9D7F8CC625F1CEFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE526B683001FD7286CECDBA09FB13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06B20D68E6FCD59C1700248668C82F4F /* DialogBox.framework */,
+				E7B5309625353EEA65756CA7B17FC118 /* Pods_GooglePlacesClone.framework */,
+				F07E3691810A20761463667CF68B56C1 /* RSLoadingView.bundle */,
+				B882488309D82F1119B486AE1E090880 /* RSLoadingView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131B70E2C6FCEE29352311418F9EE775 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A657FF468B3678EE70FF6C343E544563 /* DialogBox.modulemap */,
+				00BAC7774BA73CF28D853B069E287452 /* DialogBox.xcconfig */,
+				4EA7ECC19E4C520555221C12931ED86F /* DialogBox-dummy.m */,
+				AE61FDE018443824C193F07FCA1FBC3B /* DialogBox-prefix.pch */,
+				706C258E67450CE6CB0DC71A07087F6D /* DialogBox-umbrella.h */,
+				A0D3635CF75599B8A0092684516DF65F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DialogBox";
+			sourceTree = "<group>";
+		};
+		1F91437E933B217E026899DA7B54354C /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				9B78DBD5E37D6E2D8601C70BF2B12CEA /* Frameworks */,
+				DB65C068B7B12CF21AE1A688D86EECF5 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		42A2B0CB3364EE5D70FB3782513CF8A0 /* DialogBox */ = {
+			isa = PBXGroup;
+			children = (
+				4C8BD55B8CF06D19E70DE471098DA934 /* DialogBox.swift */,
+				131B70E2C6FCEE29352311418F9EE775 /* Support Files */,
+			);
+			name = DialogBox;
+			path = DialogBox;
+			sourceTree = "<group>";
+		};
+		43090C5E0AFE0430B3F656572B912726 /* RSLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				30AC6C2A5BCA1FACE49BDF820FA0E3E9 /* RSLoadingContainerView.swift */,
+				F486C53F61C20266D7DDA69D3C2611A5 /* RSLoadingSpinAlone.swift */,
+				5CD87EB59FB26EC681D3F1D133DDFBF8 /* RSLoadingTwins.swift */,
+				59215F1CEA9FDC57FFEBE57CA2C14953 /* RSLoadingView.swift */,
+				7B9119BD248E2AD21AE8DF1BA0A039A4 /* Utils.swift */,
+				C538826A3F856D206E5C044856F9F0BF /* Resources */,
+				F645A72D39460ECB4D039B77CF8005B9 /* Support Files */,
+			);
+			name = RSLoadingView;
+			path = RSLoadingView;
+			sourceTree = "<group>";
+		};
+		462BC2631BDFF74B7DDC225C5DBBC759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0FFBE7D52BEEE28771BE686E6D3FB5 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7D557FBB71DCA958E0ED28712D3E1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E744FE0662AC09855D465142D25B2892 /* Pods-GooglePlacesClone */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5ECB8F799F1664423BF4426422B08287 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				71CA911BC806619861285BD25DCAD68E /* Frameworks */,
+				7EFB163FF2D387437676AD18A3C575D5 /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		71CA911BC806619861285BD25DCAD68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A7DA38F9DC4FC9FC1D581FC95F9AF0 /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78A6230688A9DCFBD2CD93DD6D341C20 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				EE0547F15E016998DB33A55CA6B2BA08 /* Base */,
+				1F91437E933B217E026899DA7B54354C /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A41B2C68C27EA39ACB73204D69C57796 /* Pods */,
+				0DE526B683001FD7286CECDBA09FB13E /* Products */,
+				4A7D557FBB71DCA958E0ED28712D3E1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFB163FF2D387437676AD18A3C575D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F07427CCAAD2E7A8B5FA3E8702272E6 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		840C89B1F1511BECC83034F8ECD17F54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8729E9B1C4DA9207421C3F04FDA6378 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B78DBD5E37D6E2D8601C70BF2B12CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62B60C71A0AEDCF5AB02380785DCE5E0 /* GoogleMaps.framework */,
+				AAFBCE25E722823E6E5149868538AC7C /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A41B2C68C27EA39ACB73204D69C57796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42A2B0CB3364EE5D70FB3782513CF8A0 /* DialogBox */,
+				78A6230688A9DCFBD2CD93DD6D341C20 /* GoogleMaps */,
+				5ECB8F799F1664423BF4426422B08287 /* GooglePlacePicker */,
+				CB2280E974A8EEA9A83417C5B1FED715 /* GooglePlaces */,
+				43090C5E0AFE0430B3F656572B912726 /* RSLoadingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB6F304DF6A4A3F0E27330E6196A681B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF53E3BF21DD305B452E50D8A313B3C /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C538826A3F856D206E5C044856F9F0BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5A94D3F9ABD7EE6C010862FBCF6E5E2 /* SpinAlone.png */,
+				850F31CCAE6BAA8EE1F7BA58C49E9D19 /* SpinAlone.scnp */,
+				1678AA7234140CA039EE1CC4868C8912 /* Twins.scnp */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB2280E974A8EEA9A83417C5B1FED715 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				BB6F304DF6A4A3F0E27330E6196A681B /* Frameworks */,
+				840C89B1F1511BECC83034F8ECD17F54 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB65C068B7B12CF21AE1A688D86EECF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D18A7A3DEFF98DFA75673BA04A8484E8 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E744FE0662AC09855D465142D25B2892 /* Pods-GooglePlacesClone */ = {
+			isa = PBXGroup;
+			children = (
+				E9E75527BF1ED125F9533E7819B733DC /* Info.plist */,
+				689D991E1F74CAA8D9CFE4B4507DE96D /* Pods-GooglePlacesClone.modulemap */,
+				3A38E2833CC441F52C0E639F84E6C6F4 /* Pods-GooglePlacesClone-acknowledgements.markdown */,
+				F0AD76318C9F71E5ACA97F3576AD073D /* Pods-GooglePlacesClone-acknowledgements.plist */,
+				3D32E2F7E2FF2865E9C6041C3C27F8D0 /* Pods-GooglePlacesClone-dummy.m */,
+				00EEA78957DA64F4E3218BAE31B6D0ED /* Pods-GooglePlacesClone-frameworks.sh */,
+				DDC410CEDA0DB4FC16EABB016BB3DBB0 /* Pods-GooglePlacesClone-resources.sh */,
+				48B3582D8E7F2DE5F200FD1D6B68952D /* Pods-GooglePlacesClone-umbrella.h */,
+				AE4E5F46BC2E82434C88FDAAB38341F2 /* Pods-GooglePlacesClone.debug.xcconfig */,
+				BDB35E554D3D4FF8FCCE20AEC0F4044A /* Pods-GooglePlacesClone.release.xcconfig */,
+			);
+			name = "Pods-GooglePlacesClone";
+			path = "Target Support Files/Pods-GooglePlacesClone";
+			sourceTree = "<group>";
+		};
+		EE0547F15E016998DB33A55CA6B2BA08 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				462BC2631BDFF74B7DDC225C5DBBC759 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F645A72D39460ECB4D039B77CF8005B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C18F4BD724E8499907830B29E60DB2 /* Info.plist */,
+				D63E909726D4F0B02DF39B28B397DEF1 /* ResourceBundle-RSLoadingView-Info.plist */,
+				184AC7DD443D6E2EE6A5D23D9067428C /* RSLoadingView.modulemap */,
+				409465CB1899AE46587893C121379646 /* RSLoadingView.xcconfig */,
+				213BF4C29DE89864435F565DE3DAAE16 /* RSLoadingView-dummy.m */,
+				7B80450E4913A55F02A0F857949BCC5F /* RSLoadingView-prefix.pch */,
+				8DC6B3CE0682BA1A9AF8AA05834F2A01 /* RSLoadingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSLoadingView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DECEAFECAD5D5F8D3F08BED1177672B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1F89059CA3761C3B2F8B28B2AF77A5 /* RSLoadingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A0B66D210E0FFDA06035A0D34D227 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0321C7CCEEC12471FF541D6F4F8BBC7 /* Pods-GooglePlacesClone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F3623093B84683411186B5CE64416E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EC88EDC0C214539FE94775CCC6F409 /* DialogBox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26A67193485423183E4B4C20A0924B42 /* RSLoadingView-RSLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135646BC0AABD5A9EA1C5079B2F4AB0A /* Build configuration list for PBXNativeTarget "RSLoadingView-RSLoadingView" */;
+			buildPhases = (
+				B5B359A4C98D5F33EE2449C0A22D2586 /* Sources */,
+				72725DF171FD38DB86CA0D13692AA750 /* Frameworks */,
+				517CDD072797A33B1E49830461289A8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSLoadingView-RSLoadingView";
+			productName = "RSLoadingView-RSLoadingView";
+			productReference = F07E3691810A20761463667CF68B56C1 /* RSLoadingView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C6800D486955B8689B07B5681D6F144 /* Pods-GooglePlacesClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87BFFCDC1FE86003D1A123C9A711117 /* Build configuration list for PBXNativeTarget "Pods-GooglePlacesClone" */;
+			buildPhases = (
+				E79770DCF9294C4B44BEAD87F0EF6761 /* Sources */,
+				D352E1746AEB82114B80C90443EDFF2A /* Frameworks */,
+				606A0B66D210E0FFDA06035A0D34D227 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14D5E72E245B6301F07E961B321A3440 /* PBXTargetDependency */,
+				20157063D964870EB19DCE429DF4D149 /* PBXTargetDependency */,
+			);
+			name = "Pods-GooglePlacesClone";
+			productName = "Pods-GooglePlacesClone";
+			productReference = E7B5309625353EEA65756CA7B17FC118 /* Pods_GooglePlacesClone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E2EAEB77FA926D275BD145D0E0D74A3 /* RSLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55824530B102D3CE265FF78E48A22A8C /* Build configuration list for PBXNativeTarget "RSLoadingView" */;
+			buildPhases = (
+				92A85BF03068EC8549E11CAA261155E5 /* Sources */,
+				ACAFBBFABFDFB6DB01DA65361C5B4026 /* Frameworks */,
+				F64B0001EF2B8D8F1DA054C9EF0FF045 /* Resources */,
+				0DECEAFECAD5D5F8D3F08BED1177672B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857294E110ADE3C08D372C8049A1695D /* PBXTargetDependency */,
+			);
+			name = RSLoadingView;
+			productName = RSLoadingView;
+			productReference = B882488309D82F1119B486AE1E090880 /* RSLoadingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCE36B0C16E9D0DCDF7CFDD88F029881 /* DialogBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BADA7D0A8FFF2477DB442C51A75986 /* Build configuration list for PBXNativeTarget "DialogBox" */;
+			buildPhases = (
+				EF189557F33ADF111083C1F74F3B7103 /* Sources */,
+				5EEE81597BE67161B1DD7EF4CE1F2D60 /* Frameworks */,
+				C2F3623093B84683411186B5CE64416E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialogBox;
+			productName = DialogBox;
+			productReference = 06B20D68E6FCD59C1700248668C82F4F /* DialogBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0DE526B683001FD7286CECDBA09FB13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE36B0C16E9D0DCDF7CFDD88F029881 /* DialogBox */,
+				2C6800D486955B8689B07B5681D6F144 /* Pods-GooglePlacesClone */,
+				4E2EAEB77FA926D275BD145D0E0D74A3 /* RSLoadingView */,
+				26A67193485423183E4B4C20A0924B42 /* RSLoadingView-RSLoadingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517CDD072797A33B1E49830461289A8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F894222461A12CD0815454EE47A5C7 /* SpinAlone.png in Resources */,
+				693F5CDC4721809BB8D171F3B40A4880 /* SpinAlone.scnp in Resources */,
+				A600C292B8B6E4E62001BD7AFE54E803 /* Twins.scnp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64B0001EF2B8D8F1DA054C9EF0FF045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C484B33BF754F3259049EE96B3104104 /* RSLoadingView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A85BF03068EC8549E11CAA261155E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446CFB3F62FF05F6A75A622DB9AF9181 /* RSLoadingContainerView.swift in Sources */,
+				C7BDF42CCDDF8C90E2FD01305A6DEF92 /* RSLoadingSpinAlone.swift in Sources */,
+				404AFA5EC8DB7739504908F28873D8D5 /* RSLoadingTwins.swift in Sources */,
+				76C9A901B406955DB624BDC8999AA033 /* RSLoadingView-dummy.m in Sources */,
+				A28F1EC7DB4C19CB0CB30AED62545B23 /* RSLoadingView.swift in Sources */,
+				CF0D4D87C869E7B5BC1E82EFE407A932 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B359A4C98D5F33EE2449C0A22D2586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79770DCF9294C4B44BEAD87F0EF6761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A2E57EA1E3FF2FE819A6AD4C2E1E5 /* Pods-GooglePlacesClone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF189557F33ADF111083C1F74F3B7103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FF9C0B90B9A0916C85FD1D1F15D6A3 /* DialogBox-dummy.m in Sources */,
+				9AA3D4228459359CE382BA9D864C53D8 /* DialogBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14D5E72E245B6301F07E961B321A3440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DialogBox;
+			target = DCE36B0C16E9D0DCDF7CFDD88F029881 /* DialogBox */;
+			targetProxy = EBB835E0FC53D82D5E9C8BBCFB6EAE69 /* PBXContainerItemProxy */;
+		};
+		20157063D964870EB19DCE429DF4D149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSLoadingView;
+			target = 4E2EAEB77FA926D275BD145D0E0D74A3 /* RSLoadingView */;
+			targetProxy = 8BAE4AC2ED15339C1CCF8D125D1ECFE6 /* PBXContainerItemProxy */;
+		};
+		857294E110ADE3C08D372C8049A1695D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RSLoadingView-RSLoadingView";
+			target = 26A67193485423183E4B4C20A0924B42 /* RSLoadingView-RSLoadingView */;
+			targetProxy = 4F214A5471F75F0A635ECE4015DEFC2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17A860857BAC36251BE228F555F06C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409465CB1899AE46587893C121379646 /* RSLoadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RSLoadingView";
+				INFOPLIST_FILE = "Target Support Files/RSLoadingView/ResourceBundle-RSLoadingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RSLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		303F69A228A75ABB0B51148226C24ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB35E554D3D4FF8FCCE20AEC0F4044A /* Pods-GooglePlacesClone.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GooglePlacesClone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GooglePlacesClone/Pods-GooglePlacesClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GooglePlacesClone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61F2FB2C65860BBF26B712638EF6B91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4E5F46BC2E82434C88FDAAB38341F2 /* Pods-GooglePlacesClone.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GooglePlacesClone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GooglePlacesClone/Pods-GooglePlacesClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GooglePlacesClone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C61E9BC1D7995DD2DCDE0364070FA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409465CB1899AE46587893C121379646 /* RSLoadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RSLoadingView";
+				INFOPLIST_FILE = "Target Support Files/RSLoadingView/ResourceBundle-RSLoadingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RSLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		75C13D828D25C6A69D6B082307AF6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409465CB1899AE46587893C121379646 /* RSLoadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSLoadingView/RSLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSLoadingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSLoadingView/RSLoadingView.modulemap";
+				PRODUCT_NAME = RSLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86D93AE599720A6D5429EF2893F2CDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BAC7774BA73CF28D853B069E287452 /* DialogBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DialogBox/DialogBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DialogBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DialogBox/DialogBox.modulemap";
+				PRODUCT_NAME = DialogBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B15C708B911693736D3D5539E767AE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BAC7774BA73CF28D853B069E287452 /* DialogBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DialogBox/DialogBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DialogBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DialogBox/DialogBox.modulemap";
+				PRODUCT_NAME = DialogBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B744890EC65B8A13C14C0BC364376F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409465CB1899AE46587893C121379646 /* RSLoadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSLoadingView/RSLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSLoadingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSLoadingView/RSLoadingView.modulemap";
+				PRODUCT_NAME = RSLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		135646BC0AABD5A9EA1C5079B2F4AB0A /* Build configuration list for PBXNativeTarget "RSLoadingView-RSLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A860857BAC36251BE228F555F06C37 /* Debug */,
+				6C61E9BC1D7995DD2DCDE0364070FA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55824530B102D3CE265FF78E48A22A8C /* Build configuration list for PBXNativeTarget "RSLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B744890EC65B8A13C14C0BC364376F35 /* Debug */,
+				75C13D828D25C6A69D6B082307AF6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87BFFCDC1FE86003D1A123C9A711117 /* Build configuration list for PBXNativeTarget "Pods-GooglePlacesClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F2FB2C65860BBF26B712638EF6B91E /* Debug */,
+				303F69A228A75ABB0B51148226C24ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BADA7D0A8FFF2477DB442C51A75986 /* Build configuration list for PBXNativeTarget "DialogBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15C708B911693736D3D5539E767AE45 /* Debug */,
+				86D93AE599720A6D5429EF2893F2CDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

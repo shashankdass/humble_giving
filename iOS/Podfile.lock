@@ -1,0 +1,31 @@
+PODS:
+  - DialogBox (1.0.1)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.1):
+    - GoogleMaps (= 2.3.1)
+    - GooglePlaces (= 2.3.1)
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - RSLoadingView (1.1.2)
+
+DEPENDENCIES:
+  - DialogBox
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - RSLoadingView
+
+SPEC CHECKSUMS:
+  DialogBox: 9e714abab542024a36fc461fc1d89cb5df59f804
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlacePicker: fc3564ac7a2ce314e78e42bfc1e16822ad1e5488
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  RSLoadingView: fdfeee9968b6dad2559169a97da0ad2580371f3a
+
+PODFILE CHECKSUM: f5e55ddc6e674ab44c99629ef15196be3555352b
+
+COCOAPODS: 1.4.0
